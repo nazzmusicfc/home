@@ -151,6 +151,17 @@ nav{
     /*Nav height - 45px*/
 }
 
+@media (max-width:425px){
+    #nav{
+        margin:10px;
+    }
+    .nav-links, nav li{
+        font-size:10px;
+        margin:5px;
+        padding:5px;
+    }
+}
+
 #heading{
     height:25vh;
     width:100%;
@@ -167,7 +178,7 @@ nav{
 
 .song-segs{
     height:50vh;
-    margin:50px 10%;
+    margin:200px 10%;
     display:flex;
     /* justify-content: center; */
     align-items: center;
@@ -178,6 +189,7 @@ nav{
     .song-segs{
         height:auto;
         flex-direction: column;
+        margin:100px 10%;
     }
 }
 
@@ -207,7 +219,7 @@ nav{
 }
 @media (max-width:425px){
     .song-info p, h1
-    {font-size:15px;
+    {font-size:10px;
     }
 }
 
@@ -216,6 +228,11 @@ nav{
     height:216px;
     width:384px;
     margin:20px;
+}
+
+.yt-video{
+    height:216px;
+    width:384px;   
 }
 
 @media(max-width:425px){
@@ -320,3 +337,42 @@ nav{
         height:50px;
     }
 }
+
+footer{
+    height:auto;
+    width:100%;
+    padding: 5px 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+    text-align: center;
+    font-size:15px;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+footer p, a{
+    font-size: 15px;
+    margin:10px;
+    background-color: none;
+}
+
+.footer-links{
+    margin:10px;
+    text-decoration: none;
+    background-color: none;
+}
+
+.footer-credits{
+    font-size:10px;
+    font-weight: 100;
+    margin:5px;
+}
+
+@media (max-width:425px){
+    #home-footer p, h1, a, li {
+        font-size: 10px;
+        margin:5px;
+    }
+}
+
