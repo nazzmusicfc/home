@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='songs.css'>
+</head>
+<body>
+    <div id='loader-container'>
+        <div id="loader"></div>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href='index.html' class='nav-links'>Home</a></li>
+            <li><a href='#' class='nav-links'>Songs</a></li>
+            <li><a href='#' class='nav-links'>Shows</a></li>
+            <li><a href='#' class='nav-links'>Contact</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <div id="heading">
+            <h1>Songs</h1>
+        </div>
+        <div class="song-segs" id='song-seg-1'>
+            <div class='song-offline' >
+            <div class="song-cover">
+                <img class='song-cover-img' src='images\aakhri_baatein.jpg' type='image/jpg'>
+            </div>
+            <div class="song-info">
+                <h1>Aakhri Baatein</h1>
+                <p> Artist: Nazz<br>
+                    Prod by: Audiocrackerr<br>
+                    Directed by: Canfuse<br>
+                    Publicity Design: T3 Designs
+                </p>
+                <div class='song-links-div'>
+                    <img src="icons/youtube.png" class='song-links' alt="">
+                    <img src="icons/spotify.png" class='song-links' alt="">
+                </div>
+            </div>
+        </div>
+            <div class="youtube-embedded"><iframe class='yt-video' width="384" height="216" src="https://www.youtube.com/embed/qJfk-VEjdGQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+        </div>
+
+        <div class="song-segs" id='song-seg-1'>
+            <div class='song-offline' >
+            <div class="song-cover">
+                <img class='song-cover-img' src='images\aakhri_baatein.jpg' type='image/jpg'>
+            </div>
+            <div class="song-info">
+                <h1>Aakhri Baatein</h1>
+                <p> Artist: Nazz<br>
+                    Prod by: Audiocrackerr<br>
+                    Directed by: Canfuse<br>
+                    Publicity Design: T3 Designs
+                </p>
+                <div class='song-links-div'>
+                    <img src="icons/youtube.png" class='song-links' alt="">
+                    <img src="icons/spotify.png" class='song-links' alt="">
+                </div>
+            </div>
+            </div>
+                <div class="youtube-embedded"></div>
+        </div>
+            
+        </div>
+    </main>
+</body>
+<script src='songs.js'></script>
+<script>
+ 
+    document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector("body").style.visibility = "hidden"; 
+        document.querySelector("#loader").style.visibility = "visible"; 
+        document.querySelector("#loader-container").style.visibility = "visible"; 
+    } else { 
+        document.querySelector("#loader").style.display = "none"; 
+        document.querySelector("#loader-container").style.display = "none"; 
+        document.querySelector("body").style.visibility = "visible";
+        document.querySelector("body").style.overflow = "auto"; 
+    } 
+};
+</script>
+</html>

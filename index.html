@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id='loader-container'>
+        <div id="loader"></div>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href='#' class='nav-links'>Home</a></li>
+            <li><a href='songs.html' class='nav-links'>Songs</a></li>
+            <li><a href='#' class='nav-links'>Shows</a></li>
+            <li><a href='#' class='nav-links'>Contact</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        
+        <div class="segments" id="segment1">
+            <h1 id='nfb'>Nazz Fu*king Best</h1>
+
+            <div id='song-container'>
+                <div id='song1' class='song'>
+                <img alt='Nazz- Antariksh Poster' id='song1-img' src='images\antariksh.jpg' type='image/jpg'>
+
+            <div id='audio'>
+                <audio id='audio1'
+                    controls onplay="one(), three()" onpause="two(), four()"
+                    src="song.mp3">
+                        Your browser does not support the
+            <code>audio</code> element.
+                </audio>
+            </div>
+        </div>
+
+        <div id='song2' class='song' >
+            <img alt='Nazz- Aakhri Baatein Poster' src='images\aakhri_baatein.jpg' type='image/jpg'>
+
+            <div id='audio'>
+                <audio id='audio1'
+                    controls onplay="one(), five()" onpause="two(), six()"
+                    src="song.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </div>
+        </div>
+
+
+            <div id='song3' class='song' >
+                <img alt='Nazz- RJ Street Family Poster' src='images\rj_street_family.jpg' type='image/jpg'>
+    
+                <div id='audio'>
+                    <audio id='audio1'
+                        controls onplay="one(), seven()" onpause="two(), eight()"
+                        src="song.mp3">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </div>
+            </div>
+                </div>
+        </div>
+
+        <div class="segments" id="segment2">
+            <div id="about-nazz" >
+                <img src="images\nazz1.jpg" >
+                <p><span style=' color: rgb(0, 153, 255); font-weight: bold;'>Nihar Hodawadekar</span> a.k.a <span  style=' color: rgb(0, 153, 255); font-weight: bold;'>Nazz</span> is a Mumbai based rapper who is making Music since 2015, started rapping in year 2018
+                 and has given many hits in this field.<br>
+                Nazz dropped his first song 'Kahani' on 12th April 2020 and from that day till now
+                Nazz has never looked back and consistently gave precious artworks to the audience.<br>
+                Nazz beleives is being down to earth and in giving respect and love to everyone.<br><a href='#'>Read more</a></p>
+                
+            </div>
+        </div>
+
+        <div style='height:auto' id='segment3'>
+        <h1>Get Connected</h1>
+        <div class="socials">
+            <img src="icons/youtube.png"     alt="Nazz on Youtube"          class="social-icons" onclick='youtube()'>
+            <img src="icons/spotify.png"     alt="Nazz on Spotify"          class="social-icons" onclick='spotify()'>
+            <img src="icons/instagram.png"   alt="Nazz's Instagram ID"      class="social-icons" onclick='instagram()'>
+            <img src="icons/facebook.png"    alt="Nazz's Facebook profile"  class="social-icons" onclick='facebook()'>
+            <img src="icons/twitter.png"     alt="Nazz's twitter handle"    class="social-icons" onclick='twitter()'>
+            <img src="icons/phone.png"       alt="Contact via Phone"        class="social-icons" onclick='phone()'>
+        </div>
+        </div>
+        <footer id="home-footer">
+                <p>All Copyrights reserved by Nazz Official 2020</p>
+                <ul>
+                    <li><a href='#' class='footer-links'>Home</a></li>
+                    <li><a href='#' class='footer-links'>Songs</a></li>
+                    <li><a href='#' class='footer-links'>Shows</a></li>
+                    <li><a href='#' class='footer-links'>Contact</a></li>
+                    
+                </ul>
+                <p class='footer-credits'>Icons by font8.com</p>
+                <p class='footer-credits'>Graphics by Nazz Official and Apple</p>
+        </footer>
+
+
+        
+    </main>
+    <script src='index.js'></script>
+    <script>
+ 
+        document.onreadystatechange = function() { 
+        if (document.readyState !== "complete") { 
+            document.querySelector("body").style.visibility = "hidden"; 
+            document.querySelector("#loader").style.visibility = "visible"; 
+            document.querySelector("#loader-container").style.visibility = "visible"; 
+        } else { 
+            document.querySelector("#loader").style.display = "none"; 
+            document.querySelector("#loader-container").style.display = "none"; 
+            document.querySelector("body").style.visibility = "visible";
+    document.querySelector("body").style.overflow = "auto"; 
+        } 
+    };
+    </script>
+
+</body>
+
+</html>
+
