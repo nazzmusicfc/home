@@ -311,7 +311,7 @@ nav{
 }
 
 #loader-container{
-    position: absolute;
+    position: fixed;
     width:100vw;
     height:100vh;
     display: flex;
@@ -376,3 +376,6 @@ footer p, a{
     }
 }
 
+#antariksh{
+    margin-top:50px;
+}
