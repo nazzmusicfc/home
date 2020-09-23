@@ -143,7 +143,9 @@ nav{
 
 }
 
-#audio{
+.
+
+audio{
     background: rgb(240, 240, 240);
     display: flex;
     align-items: center;
@@ -333,6 +335,22 @@ footer p, a{
     margin:5px;
 }
 
+.spotify-single{
+    height:80px;
+    width:250px;
+}
+
+#yt-embed{
+    height:380px;
+    width:675px;
+    margin-left:40px;
+}
+
+#embed{
+    display:flex;
+    justify-content: center;
+    margin:50px 5%;
+}
 
 
 
@@ -348,12 +366,7 @@ footer p, a{
 
 
 
-
-
-
-
-
-@media (max-width:900px){
+@media (max-width:425px){
     
     .song{
         margin:20px;
@@ -377,6 +390,19 @@ footer p, a{
         width: 200px;
 
     }
+
+    #embed{
+        flex-direction:column;
+        align-items: center;
+    }
+
+    #yt-embed{
+        width: 300px;
+        height:170px;
+        margin:0px;
+        margin-top: 10px;
+    }
+
     #audio1{
         width:200px;
     }
@@ -394,6 +420,11 @@ footer p, a{
         align-items: center;
     }
 
+    .spotify-single{
+        width:200px;
+        height:80px;
+    }
+
     #about-nazz img{
         width:80%;
         height:auto;
@@ -408,6 +439,7 @@ footer p, a{
     }
     #segment3 {
         margin:20px;
+        margin-top: 30px;
     }
     #segment3 h1{
         font-size:20px;
@@ -426,6 +458,15 @@ footer p, a{
 
     #nav{
         margin:10px;
+        justify-content: center;
+        width:100%;
+    }
+
+    #nav ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:100%;
     }
     .nav-links, nav li{
         font-size:10px;
@@ -433,3 +474,10 @@ footer p, a{
         padding:5px;
     }
 }
+
+
+
+
+
+
+
