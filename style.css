@@ -336,8 +336,8 @@ footer p, a{
 }
 
 .spotify-single{
-    height:80px;
-    width:250px;
+    height:80px !important;
+    width:250px !important;
 }
 
 #yt-embed{
@@ -421,8 +421,8 @@ footer p, a{
     }
 
     .spotify-single{
-        width:200px;
-        height:80px;
+        width:200px !important;
+        height:80px !important;
     }
 
     #about-nazz img{
