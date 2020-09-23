@@ -1,3 +1,9 @@
+console.log('This site is developed by Coded Dreams http://codeddreams.epizy.com');
+console.log('This site is developed by Coded Dreams http://codeddreams.epizy.com');
+console.log('This site is developed by Coded Dreams http://codeddreams.epizy.com');
+console.log('This site is developed by Coded Dreams http://codeddreams.epizy.com');
+console.log('This site is developed by Coded Dreams http://codeddreams.epizy.com');
+
 function one(){
     document.getElementById('nfb').style.filter = 'drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.9)';
 }
@@ -41,20 +47,20 @@ document.addEventListener('play', function(e){
 }, true);
 
 function youtube(){
-    window.open('https://youtube.com', '_blank')
+    window.open('https://www.youtube.com/channel/UC8maW4itAzqQ9-ZgNCVfhSw', '_blank')
 }
 function spotify(){
-    window.open('https://spotify.com', '_blank')
+    window.open('https://open.spotify.com/artist/7iEUKVcv42PUcIS696yadB', '_blank')
 }
 function instagram(){
     window.open('https://instagram.com/nazzmusic', '_blank')
 }
 function facebook(){
-    window.open('https://facebook.com', '_blank')
+    window.open('https://www.facebook.com/profile.php?id=100011063224584', '_blank')
 }
 function twitter(){
-    window.open('https://twitter.com', '_blank')
+    window.open('https://twitter.com/Nihar0051', '_blank')
 }
 function phone(){
-    window.open('https://forms.google.com', '_blank')
+    window.open('#')
 }
